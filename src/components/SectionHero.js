@@ -17,7 +17,6 @@ export default class SectionHero extends React.Component {
                 )}
                 {_.get(section, 'content', null) && (
                 <div className="block-content inner-sm">
-        
                   {markdownify(_.get(section, 'content', null))}
                 </div>
                 )}
